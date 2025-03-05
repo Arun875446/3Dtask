@@ -155,7 +155,7 @@ renderer.setSize(sizes.width, sizes.height);
 const clock = new THREE.Clock();
 
 const particlesGeometry = new THREE.BufferGeometry();
-const count = 150;
+const count = 80;
 
 const positions = new Float32Array(count * 3);
 for (let i = 0; i < count * 3; i++) {
