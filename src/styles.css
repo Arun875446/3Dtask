@@ -6,7 +6,7 @@
 html,
 body {
   overflow: hidden;
-  background: #ff7b29; /* Bright orange background as in your reference */
+  background: #ff7b29; 
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,8 +23,8 @@ body {
   width: 100%;
   text-align: center;
 
-  pointer-events: none; /* Allow clicks to pass through to the canvas */
-  user-select: none; /* Prevent text selection */
+  pointer-events: none; 
+  user-select: none; 
 }
 
 .header-text {
